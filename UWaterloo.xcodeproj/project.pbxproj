@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F53F2A121975D6AE00CE01E7 /* UWaterloo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F53F2A101975D6AE00CE01E7 /* UWaterloo.xcdatamodeld */; };
+		F53F2A151975DA4F00CE01E7 /* CourseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F2A141975DA4F00CE01E7 /* CourseListViewController.m */; };
+		F53F2A181975EBF300CE01E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53F2A161975EBF300CE01E7 /* Main.storyboard */; };
+		F53F2A201975F53800CE01E7 /* LeafNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F2A1B1975F53800CE01E7 /* LeafNotification.m */; };
+		F53F2A211975F53800CE01E7 /* notification_success.png in Resources */ = {isa = PBXBuildFile; fileRef = F53F2A1C1975F53800CE01E7 /* notification_success.png */; };
+		F53F2A221975F53800CE01E7 /* notification_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F53F2A1D1975F53800CE01E7 /* notification_success@2x.png */; };
+		F53F2A231975F53800CE01E7 /* notification_warring.png in Resources */ = {isa = PBXBuildFile; fileRef = F53F2A1E1975F53800CE01E7 /* notification_warring.png */; };
+		F53F2A241975F53800CE01E7 /* notification_warring@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F53F2A1F1975F53800CE01E7 /* notification_warring@2x.png */; };
+		F53F2A2719760D5900CE01E7 /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F2A2619760D5900CE01E7 /* ScheduleTableViewController.m */; };
+		F53F2A2E19760EEE00CE01E7 /* CourseScheduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F2A2D19760EEE00CE01E7 /* CourseScheduleModel.m */; };
+		F53F2A311976102800CE01E7 /* classesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F2A301976102800CE01E7 /* classesModel.m */; };
+		F53F2A341976108F00CE01E7 /* dateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F2A331976108F00CE01E7 /* dateModel.m */; };
+		F53F2A371976109D00CE01E7 /* locationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F2A361976109D00CE01E7 /* locationModel.m */; };
+		F53F2A3A1976159200CE01E7 /* CourseScheduleFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F2A391976159200CE01E7 /* CourseScheduleFetcher.m */; };
+		F53F2A3D19761AA600CE01E7 /* CourseScheduleFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F2A3C19761AA600CE01E7 /* CourseScheduleFeed.m */; };
+		F56AFDA4197CB84A00CD8D0E /* paper_clip_note.png in Resources */ = {isa = PBXBuildFile; fileRef = F56AFDA3197CB84A00CD8D0E /* paper_clip_note.png */; };
+		F56AFDA7197CC44E00CD8D0E /* edit-notes.png in Resources */ = {isa = PBXBuildFile; fileRef = F56AFDA6197CC44E00CD8D0E /* edit-notes.png */; };
+		F5763F531981DBAE0011C5FC /* addScheduleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5763F521981DBAE0011C5FC /* addScheduleDetailViewController.m */; };
+		F5763F55198206BE0011C5FC /* wood2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5763F54198206BE0011C5FC /* wood2.jpg */; };
+		F5763F57198208E60011C5FC /* wood2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5763F56198208E60011C5FC /* wood2.png */; };
+		F5B8010219737D1C0028E0A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8010119737D1C0028E0A5 /* Foundation.framework */; };
+		F5B8010419737D1C0028E0A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8010319737D1C0028E0A5 /* CoreGraphics.framework */; };
+		F5B8010619737D1C0028E0A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8010519737D1C0028E0A5 /* UIKit.framework */; };
+		F5B8010819737D1C0028E0A5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8010719737D1C0028E0A5 /* CoreData.framework */; };
+		F5B8010E19737D1C0028E0A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B8010C19737D1C0028E0A5 /* InfoPlist.strings */; };
+		F5B8011019737D1C0028E0A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8010F19737D1C0028E0A5 /* main.m */; };
+		F5B8011419737D1C0028E0A5 /* UWaterlooAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8011319737D1C0028E0A5 /* UWaterlooAppDelegate.m */; };
+		F5B8011D19737D1C0028E0A5 /* UWaterlooMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8011C19737D1C0028E0A5 /* UWaterlooMasterViewController.m */; };
+		F5B8012019737D1C0028E0A5 /* UWaterlooDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8011F19737D1C0028E0A5 /* UWaterlooDetailViewController.m */; };
+		F5B8012219737D1C0028E0A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B8012119737D1C0028E0A5 /* Images.xcassets */; };
+		F5B8012919737D1C0028E0A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8012819737D1C0028E0A5 /* XCTest.framework */; };
+		F5B8012A19737D1C0028E0A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8010119737D1C0028E0A5 /* Foundation.framework */; };
+		F5B8012B19737D1C0028E0A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8010519737D1C0028E0A5 /* UIKit.framework */; };
+		F5B8012C19737D1C0028E0A5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8010719737D1C0028E0A5 /* CoreData.framework */; };
+		F5B8013419737D1C0028E0A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B8013219737D1C0028E0A5 /* InfoPlist.strings */; };
+		F5B8013619737D1C0028E0A5 /* UWaterlooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8013519737D1C0028E0A5 /* UWaterlooTests.m */; };
+		F5B8016619737D5B0028E0A5 /* JSONModel+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8014D19737D5B0028E0A5 /* JSONModel+CoreData.m */; };
+		F5B8016719737D5B0028E0A5 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8014F19737D5B0028E0A5 /* JSONModel.m */; };
+		F5B8016819737D5B0028E0A5 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8015119737D5B0028E0A5 /* JSONModelArray.m */; };
+		F5B8016919737D5B0028E0A5 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8015319737D5B0028E0A5 /* JSONModelClassProperty.m */; };
+		F5B8016A19737D5B0028E0A5 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8015519737D5B0028E0A5 /* JSONModelError.m */; };
+		F5B8016B19737D5B0028E0A5 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8015819737D5B0028E0A5 /* NSArray+JSONModel.m */; };
+		F5B8016C19737D5B0028E0A5 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8015C19737D5B0028E0A5 /* JSONAPI.m */; };
+		F5B8016D19737D5B0028E0A5 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8015E19737D5B0028E0A5 /* JSONHTTPClient.m */; };
+		F5B8016E19737D5B0028E0A5 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8016019737D5B0028E0A5 /* JSONModel+networking.m */; };
+		F5B8016F19737D5B0028E0A5 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8016319737D5B0028E0A5 /* JSONKeyMapper.m */; };
+		F5B8017019737D5B0028E0A5 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8016519737D5B0028E0A5 /* JSONValueTransformer.m */; };
+		F5B8017819737D6A0028E0A5 /* btnCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B8017219737D6A0028E0A5 /* btnCheck.png */; };
+		F5B8017919737D6A0028E0A5 /* btnCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B8017319737D6A0028E0A5 /* btnCheck@2x.png */; };
+		F5B8017A19737D6A0028E0A5 /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8017519737D6A0028E0A5 /* HUD.m */; };
+		F5B8017B19737D6A0028E0A5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8017719737D6A0028E0A5 /* MBProgressHUD.m */; };
+		F5B8017E19737DCF0028E0A5 /* courseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8017D19737DCF0028E0A5 /* courseModel.m */; };
+		F5B80181197380080028E0A5 /* CourseFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B80180197380080028E0A5 /* CourseFeed.m */; };
+		F5C28D6519799A68007BD8E8 /* ScheduleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C28D6419799A68007BD8E8 /* ScheduleTableCell.xib */; };
+		F5C28D6819799D35007BD8E8 /* ScheduleTableCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C28D6719799D35007BD8E8 /* ScheduleTableCellTableViewCell.m */; };
+		F5C28D6A19799E8A007BD8E8 /* MiLLAooLT.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C28D6919799E8A007BD8E8 /* MiLLAooLT.png */; };
+		F5C28D6C19799F1D007BD8E8 /* papercliptradingup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C28D6B19799F1D007BD8E8 /* papercliptradingup.jpg */; };
+		F5C28D6E1979A467007BD8E8 /* Wood-Panel-iphone-5-wallpaper-ilikewallpaper_com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C28D6D1979A467007BD8E8 /* Wood-Panel-iphone-5-wallpaper-ilikewallpaper_com.jpg */; };
+		F5C28D741979A97D007BD8E8 /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C28D731979A97D007BD8E8 /* wood.jpg */; };
+		F5C28D771979AFE2007BD8E8 /* finalScheduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C28D761979AFE2007BD8E8 /* finalScheduleModel.m */; };
+		F5C28D7B1979B0BE007BD8E8 /* finalScheduleData.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C28D7A1979B0BE007BD8E8 /* finalScheduleData.m */; };
+		F5C28D7E1979B16C007BD8E8 /* finalScheduleFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C28D7D1979B16C007BD8E8 /* finalScheduleFeed.m */; };
+		F5C28D80197AD5EE007BD8E8 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C28D7F197AD5EE007BD8E8 /* calendar.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B8012D19737D1C0028E0A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B800F619737D1B0028E0A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B800FD19737D1C0028E0A5;
+			remoteInfo = UWaterloo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F53F2A111975D6AE00CE01E7 /* UWaterloo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UWaterloo.xcdatamodel; sourceTree = "<group>"; };
+		F53F2A131975DA4E00CE01E7 /* CourseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseListViewController.h; sourceTree = "<group>"; };
+		F53F2A141975DA4F00CE01E7 /* CourseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseListViewController.m; sourceTree = "<group>"; };
+		F53F2A171975EBF300CE01E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F53F2A1A1975F53800CE01E7 /* LeafNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafNotification.h; sourceTree = "<group>"; };
+		F53F2A1B1975F53800CE01E7 /* LeafNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafNotification.m; sourceTree = "<group>"; };
+		F53F2A1C1975F53800CE01E7 /* notification_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification_success.png; sourceTree = "<group>"; };
+		F53F2A1D1975F53800CE01E7 /* notification_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification_success@2x.png"; sourceTree = "<group>"; };
+		F53F2A1E1975F53800CE01E7 /* notification_warring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification_warring.png; sourceTree = "<group>"; };
+		F53F2A1F1975F53800CE01E7 /* notification_warring@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification_warring@2x.png"; sourceTree = "<group>"; };
+		F53F2A2519760D5800CE01E7 /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
+		F53F2A2619760D5900CE01E7 /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
+		F53F2A2C19760EEE00CE01E7 /* CourseScheduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseScheduleModel.h; sourceTree = "<group>"; };
+		F53F2A2D19760EEE00CE01E7 /* CourseScheduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseScheduleModel.m; sourceTree = "<group>"; };
+		F53F2A2F1976102800CE01E7 /* classesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classesModel.h; sourceTree = "<group>"; };
+		F53F2A301976102800CE01E7 /* classesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = classesModel.m; sourceTree = "<group>"; };
+		F53F2A321976108F00CE01E7 /* dateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dateModel.h; sourceTree = "<group>"; };
+		F53F2A331976108F00CE01E7 /* dateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateModel.m; sourceTree = "<group>"; };
+		F53F2A351976109D00CE01E7 /* locationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locationModel.h; sourceTree = "<group>"; };
+		F53F2A361976109D00CE01E7 /* locationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = locationModel.m; sourceTree = "<group>"; };
+		F53F2A381976159200CE01E7 /* CourseScheduleFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseScheduleFetcher.h; sourceTree = "<group>"; };
+		F53F2A391976159200CE01E7 /* CourseScheduleFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseScheduleFetcher.m; sourceTree = "<group>"; };
+		F53F2A3B19761AA600CE01E7 /* CourseScheduleFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseScheduleFeed.h; sourceTree = "<group>"; };
+		F53F2A3C19761AA600CE01E7 /* CourseScheduleFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseScheduleFeed.m; sourceTree = "<group>"; };
+		F56AFDA3197CB84A00CD8D0E /* paper_clip_note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper_clip_note.png; sourceTree = "<group>"; };
+		F56AFDA6197CC44E00CD8D0E /* edit-notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-notes.png"; sourceTree = "<group>"; };
+		F5763F511981DBAE0011C5FC /* addScheduleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addScheduleDetailViewController.h; sourceTree = "<group>"; };
+		F5763F521981DBAE0011C5FC /* addScheduleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addScheduleDetailViewController.m; sourceTree = "<group>"; };
+		F5763F54198206BE0011C5FC /* wood2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood2.jpg; sourceTree = "<group>"; };
+		F5763F56198208E60011C5FC /* wood2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood2.png; sourceTree = "<group>"; };
+		F5B800FE19737D1C0028E0A5 /* UWaterloo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UWaterloo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B8010119737D1C0028E0A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5B8010319737D1C0028E0A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5B8010519737D1C0028E0A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5B8010719737D1C0028E0A5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F5B8010B19737D1C0028E0A5 /* UWaterloo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UWaterloo-Info.plist"; sourceTree = "<group>"; };
+		F5B8010D19737D1C0028E0A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5B8010F19737D1C0028E0A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5B8011119737D1C0028E0A5 /* UWaterloo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UWaterloo-Prefix.pch"; sourceTree = "<group>"; };
+		F5B8011219737D1C0028E0A5 /* UWaterlooAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWaterlooAppDelegate.h; sourceTree = "<group>"; };
+		F5B8011319737D1C0028E0A5 /* UWaterlooAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWaterlooAppDelegate.m; sourceTree = "<group>"; };
+		F5B8011B19737D1C0028E0A5 /* UWaterlooMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWaterlooMasterViewController.h; sourceTree = "<group>"; };
+		F5B8011C19737D1C0028E0A5 /* UWaterlooMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWaterlooMasterViewController.m; sourceTree = "<group>"; };
+		F5B8011E19737D1C0028E0A5 /* UWaterlooDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWaterlooDetailViewController.h; sourceTree = "<group>"; };
+		F5B8011F19737D1C0028E0A5 /* UWaterlooDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWaterlooDetailViewController.m; sourceTree = "<group>"; };
+		F5B8012119737D1C0028E0A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5B8012719737D1C0028E0A5 /* UWaterlooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UWaterlooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B8012819737D1C0028E0A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F5B8013119737D1C0028E0A5 /* UWaterlooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UWaterlooTests-Info.plist"; sourceTree = "<group>"; };
+		F5B8013319737D1C0028E0A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5B8013519737D1C0028E0A5 /* UWaterlooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWaterlooTests.m; sourceTree = "<group>"; };
+		F5B8014C19737D5B0028E0A5 /* JSONModel+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+CoreData.h"; sourceTree = "<group>"; };
+		F5B8014D19737D5B0028E0A5 /* JSONModel+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+CoreData.m"; sourceTree = "<group>"; };
+		F5B8014E19737D5B0028E0A5 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		F5B8014F19737D5B0028E0A5 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		F5B8015019737D5B0028E0A5 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		F5B8015119737D5B0028E0A5 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		F5B8015219737D5B0028E0A5 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		F5B8015319737D5B0028E0A5 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		F5B8015419737D5B0028E0A5 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		F5B8015519737D5B0028E0A5 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		F5B8015719737D5B0028E0A5 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		F5B8015819737D5B0028E0A5 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		F5B8015919737D5B0028E0A5 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		F5B8015B19737D5B0028E0A5 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		F5B8015C19737D5B0028E0A5 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		F5B8015D19737D5B0028E0A5 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		F5B8015E19737D5B0028E0A5 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		F5B8015F19737D5B0028E0A5 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		F5B8016019737D5B0028E0A5 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		F5B8016219737D5B0028E0A5 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		F5B8016319737D5B0028E0A5 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		F5B8016419737D5B0028E0A5 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		F5B8016519737D5B0028E0A5 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		F5B8017219737D6A0028E0A5 /* btnCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnCheck.png; sourceTree = "<group>"; };
+		F5B8017319737D6A0028E0A5 /* btnCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnCheck@2x.png"; sourceTree = "<group>"; };
+		F5B8017419737D6A0028E0A5 /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
+		F5B8017519737D6A0028E0A5 /* HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
+		F5B8017619737D6A0028E0A5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F5B8017719737D6A0028E0A5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F5B8017C19737DCF0028E0A5 /* courseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = courseModel.h; sourceTree = "<group>"; };
+		F5B8017D19737DCF0028E0A5 /* courseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = courseModel.m; sourceTree = "<group>"; };
+		F5B8017F197380080028E0A5 /* CourseFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseFeed.h; sourceTree = "<group>"; };
+		F5B80180197380080028E0A5 /* CourseFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseFeed.m; sourceTree = "<group>"; };
+		F5C28D6419799A68007BD8E8 /* ScheduleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleTableCell.xib; sourceTree = "<group>"; };
+		F5C28D6619799D35007BD8E8 /* ScheduleTableCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableCellTableViewCell.h; sourceTree = "<group>"; };
+		F5C28D6719799D35007BD8E8 /* ScheduleTableCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableCellTableViewCell.m; sourceTree = "<group>"; };
+		F5C28D6919799E8A007BD8E8 /* MiLLAooLT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MiLLAooLT.png; sourceTree = "<group>"; };
+		F5C28D6B19799F1D007BD8E8 /* papercliptradingup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = papercliptradingup.jpg; sourceTree = "<group>"; };
+		F5C28D6D1979A467007BD8E8 /* Wood-Panel-iphone-5-wallpaper-ilikewallpaper_com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wood-Panel-iphone-5-wallpaper-ilikewallpaper_com.jpg"; sourceTree = "<group>"; };
+		F5C28D731979A97D007BD8E8 /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+		F5C28D751979AFE2007BD8E8 /* finalScheduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = finalScheduleModel.h; sourceTree = "<group>"; };
+		F5C28D761979AFE2007BD8E8 /* finalScheduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = finalScheduleModel.m; sourceTree = "<group>"; };
+		F5C28D791979B0BE007BD8E8 /* finalScheduleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = finalScheduleData.h; sourceTree = "<group>"; };
+		F5C28D7A1979B0BE007BD8E8 /* finalScheduleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = finalScheduleData.m; sourceTree = "<group>"; };
+		F5C28D7C1979B16C007BD8E8 /* finalScheduleFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = finalScheduleFeed.h; sourceTree = "<group>"; };
+		F5C28D7D1979B16C007BD8E8 /* finalScheduleFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = finalScheduleFeed.m; sourceTree = "<group>"; };
+		F5C28D7F197AD5EE007BD8E8 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B800FB19737D1C0028E0A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B8010419737D1C0028E0A5 /* CoreGraphics.framework in Frameworks */,
+				F5B8010819737D1C0028E0A5 /* CoreData.framework in Frameworks */,
+				F5B8010619737D1C0028E0A5 /* UIKit.framework in Frameworks */,
+				F5B8010219737D1C0028E0A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B8012419737D1C0028E0A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B8012919737D1C0028E0A5 /* XCTest.framework in Frameworks */,
+				F5B8012C19737D1C0028E0A5 /* CoreData.framework in Frameworks */,
+				F5B8012B19737D1C0028E0A5 /* UIKit.framework in Frameworks */,
+				F5B8012A19737D1C0028E0A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F53F2A191975F53800CE01E7 /* LeafNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				F53F2A1A1975F53800CE01E7 /* LeafNotification.h */,
+				F53F2A1B1975F53800CE01E7 /* LeafNotification.m */,
+				F53F2A1C1975F53800CE01E7 /* notification_success.png */,
+				F53F2A1D1975F53800CE01E7 /* notification_success@2x.png */,
+				F53F2A1E1975F53800CE01E7 /* notification_warring.png */,
+				F53F2A1F1975F53800CE01E7 /* notification_warring@2x.png */,
+			);
+			name = LeafNotificationView;
+			path = UWaterloo/LeafNotificationView;
+			sourceTree = "<group>";
+		};
+		F53F2A2819760E7300CE01E7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8011219737D1C0028E0A5 /* UWaterlooAppDelegate.h */,
+				F5B8011319737D1C0028E0A5 /* UWaterlooAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		F53F2A2919760E8500CE01E7 /* CourseFeed */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8017C19737DCF0028E0A5 /* courseModel.h */,
+				F5B8017D19737DCF0028E0A5 /* courseModel.m */,
+				F5B8017F197380080028E0A5 /* CourseFeed.h */,
+				F5B80180197380080028E0A5 /* CourseFeed.m */,
+			);
+			name = CourseFeed;
+			sourceTree = "<group>";
+		};
+		F53F2A2B19760EB600CE01E7 /* CourseScheduleFeed */ = {
+			isa = PBXGroup;
+			children = (
+				F53F2A2C19760EEE00CE01E7 /* CourseScheduleModel.h */,
+				F53F2A2D19760EEE00CE01E7 /* CourseScheduleModel.m */,
+				F53F2A2F1976102800CE01E7 /* classesModel.h */,
+				F53F2A301976102800CE01E7 /* classesModel.m */,
+				F53F2A321976108F00CE01E7 /* dateModel.h */,
+				F53F2A331976108F00CE01E7 /* dateModel.m */,
+				F53F2A351976109D00CE01E7 /* locationModel.h */,
+				F53F2A361976109D00CE01E7 /* locationModel.m */,
+				F53F2A381976159200CE01E7 /* CourseScheduleFetcher.h */,
+				F53F2A391976159200CE01E7 /* CourseScheduleFetcher.m */,
+				F5C28D6419799A68007BD8E8 /* ScheduleTableCell.xib */,
+				F53F2A3B19761AA600CE01E7 /* CourseScheduleFeed.h */,
+				F53F2A3C19761AA600CE01E7 /* CourseScheduleFeed.m */,
+				F5C28D6619799D35007BD8E8 /* ScheduleTableCellTableViewCell.h */,
+				F5C28D6719799D35007BD8E8 /* ScheduleTableCellTableViewCell.m */,
+				F5C28D781979AFE9007BD8E8 /* FinalScheduleFeed */,
+				F5763F511981DBAE0011C5FC /* addScheduleDetailViewController.h */,
+				F5763F521981DBAE0011C5FC /* addScheduleDetailViewController.m */,
+			);
+			name = CourseScheduleFeed;
+			sourceTree = "<group>";
+		};
+		F56AFDA5197CB85900CD8D0E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F5763F56198208E60011C5FC /* wood2.png */,
+				F5763F54198206BE0011C5FC /* wood2.jpg */,
+				F56AFDA6197CC44E00CD8D0E /* edit-notes.png */,
+				F56AFDA3197CB84A00CD8D0E /* paper_clip_note.png */,
+				F5C28D7F197AD5EE007BD8E8 /* calendar.png */,
+				F5C28D6B19799F1D007BD8E8 /* papercliptradingup.jpg */,
+				F5C28D6D1979A467007BD8E8 /* Wood-Panel-iphone-5-wallpaper-ilikewallpaper_com.jpg */,
+				F5C28D6919799E8A007BD8E8 /* MiLLAooLT.png */,
+				F5C28D731979A97D007BD8E8 /* wood.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F5B800F519737D1B0028E0A5 = {
+			isa = PBXGroup;
+			children = (
+				F53F2A191975F53800CE01E7 /* LeafNotificationView */,
+				F5B8017119737D6A0028E0A5 /* HUD */,
+				F5B8014A19737D5B0028E0A5 /* JSONModel */,
+				F5B8010919737D1C0028E0A5 /* UWaterloo */,
+				F5B8012F19737D1C0028E0A5 /* UWaterlooTests */,
+				F5B8010019737D1C0028E0A5 /* Frameworks */,
+				F5B800FF19737D1C0028E0A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B800FF19737D1C0028E0A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B800FE19737D1C0028E0A5 /* UWaterloo.app */,
+				F5B8012719737D1C0028E0A5 /* UWaterlooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B8010019737D1C0028E0A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8010119737D1C0028E0A5 /* Foundation.framework */,
+				F5B8010319737D1C0028E0A5 /* CoreGraphics.framework */,
+				F5B8010519737D1C0028E0A5 /* UIKit.framework */,
+				F5B8010719737D1C0028E0A5 /* CoreData.framework */,
+				F5B8012819737D1C0028E0A5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5B8010919737D1C0028E0A5 /* UWaterloo */ = {
+			isa = PBXGroup;
+			children = (
+				F53F2A2B19760EB600CE01E7 /* CourseScheduleFeed */,
+				F53F2A2519760D5800CE01E7 /* ScheduleTableViewController.h */,
+				F53F2A2619760D5900CE01E7 /* ScheduleTableViewController.m */,
+				F53F2A131975DA4E00CE01E7 /* CourseListViewController.h */,
+				F53F2A141975DA4F00CE01E7 /* CourseListViewController.m */,
+				F53F2A101975D6AE00CE01E7 /* UWaterloo.xcdatamodeld */,
+				F53F2A161975EBF300CE01E7 /* Main.storyboard */,
+				F53F2A2919760E8500CE01E7 /* CourseFeed */,
+				F53F2A2819760E7300CE01E7 /* Delegate */,
+				F5B8011B19737D1C0028E0A5 /* UWaterlooMasterViewController.h */,
+				F5B8011C19737D1C0028E0A5 /* UWaterlooMasterViewController.m */,
+				F5B8011E19737D1C0028E0A5 /* UWaterlooDetailViewController.h */,
+				F5B8011F19737D1C0028E0A5 /* UWaterlooDetailViewController.m */,
+				F5B8012119737D1C0028E0A5 /* Images.xcassets */,
+				F5B8010A19737D1C0028E0A5 /* Supporting Files */,
+			);
+			path = UWaterloo;
+			sourceTree = "<group>";
+		};
+		F5B8010A19737D1C0028E0A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56AFDA5197CB85900CD8D0E /* images */,
+				F5B8010B19737D1C0028E0A5 /* UWaterloo-Info.plist */,
+				F5B8010C19737D1C0028E0A5 /* InfoPlist.strings */,
+				F5B8010F19737D1C0028E0A5 /* main.m */,
+				F5B8011119737D1C0028E0A5 /* UWaterloo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5B8012F19737D1C0028E0A5 /* UWaterlooTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8013519737D1C0028E0A5 /* UWaterlooTests.m */,
+				F5B8013019737D1C0028E0A5 /* Supporting Files */,
+			);
+			path = UWaterlooTests;
+			sourceTree = "<group>";
+		};
+		F5B8013019737D1C0028E0A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8013119737D1C0028E0A5 /* UWaterlooTests-Info.plist */,
+				F5B8013219737D1C0028E0A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5B8014A19737D5B0028E0A5 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8014B19737D5B0028E0A5 /* JSONModel */,
+				F5B8015619737D5B0028E0A5 /* JSONModelCategories */,
+				F5B8015919737D5B0028E0A5 /* JSONModelLib.h */,
+				F5B8015A19737D5B0028E0A5 /* JSONModelNetworking */,
+				F5B8016119737D5B0028E0A5 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		F5B8014B19737D5B0028E0A5 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8014C19737D5B0028E0A5 /* JSONModel+CoreData.h */,
+				F5B8014D19737D5B0028E0A5 /* JSONModel+CoreData.m */,
+				F5B8014E19737D5B0028E0A5 /* JSONModel.h */,
+				F5B8014F19737D5B0028E0A5 /* JSONModel.m */,
+				F5B8015019737D5B0028E0A5 /* JSONModelArray.h */,
+				F5B8015119737D5B0028E0A5 /* JSONModelArray.m */,
+				F5B8015219737D5B0028E0A5 /* JSONModelClassProperty.h */,
+				F5B8015319737D5B0028E0A5 /* JSONModelClassProperty.m */,
+				F5B8015419737D5B0028E0A5 /* JSONModelError.h */,
+				F5B8015519737D5B0028E0A5 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		F5B8015619737D5B0028E0A5 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8015719737D5B0028E0A5 /* NSArray+JSONModel.h */,
+				F5B8015819737D5B0028E0A5 /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		F5B8015A19737D5B0028E0A5 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8015B19737D5B0028E0A5 /* JSONAPI.h */,
+				F5B8015C19737D5B0028E0A5 /* JSONAPI.m */,
+				F5B8015D19737D5B0028E0A5 /* JSONHTTPClient.h */,
+				F5B8015E19737D5B0028E0A5 /* JSONHTTPClient.m */,
+				F5B8015F19737D5B0028E0A5 /* JSONModel+networking.h */,
+				F5B8016019737D5B0028E0A5 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		F5B8016119737D5B0028E0A5 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8016219737D5B0028E0A5 /* JSONKeyMapper.h */,
+				F5B8016319737D5B0028E0A5 /* JSONKeyMapper.m */,
+				F5B8016419737D5B0028E0A5 /* JSONValueTransformer.h */,
+				F5B8016519737D5B0028E0A5 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		F5B8017119737D6A0028E0A5 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8017219737D6A0028E0A5 /* btnCheck.png */,
+				F5B8017319737D6A0028E0A5 /* btnCheck@2x.png */,
+				F5B8017419737D6A0028E0A5 /* HUD.h */,
+				F5B8017519737D6A0028E0A5 /* HUD.m */,
+				F5B8017619737D6A0028E0A5 /* MBProgressHUD.h */,
+				F5B8017719737D6A0028E0A5 /* MBProgressHUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		F5C28D781979AFE9007BD8E8 /* FinalScheduleFeed */ = {
+			isa = PBXGroup;
+			children = (
+				F5C28D751979AFE2007BD8E8 /* finalScheduleModel.h */,
+				F5C28D761979AFE2007BD8E8 /* finalScheduleModel.m */,
+				F5C28D791979B0BE007BD8E8 /* finalScheduleData.h */,
+				F5C28D7A1979B0BE007BD8E8 /* finalScheduleData.m */,
+				F5C28D7C1979B16C007BD8E8 /* finalScheduleFeed.h */,
+				F5C28D7D1979B16C007BD8E8 /* finalScheduleFeed.m */,
+			);
+			name = FinalScheduleFeed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B800FD19737D1C0028E0A5 /* UWaterloo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B8013919737D1C0028E0A5 /* Build configuration list for PBXNativeTarget "UWaterloo" */;
+			buildPhases = (
+				F5B800FA19737D1C0028E0A5 /* Sources */,
+				F5B800FB19737D1C0028E0A5 /* Frameworks */,
+				F5B800FC19737D1C0028E0A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UWaterloo;
+			productName = UWaterloo;
+			productReference = F5B800FE19737D1C0028E0A5 /* UWaterloo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B8012619737D1C0028E0A5 /* UWaterlooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B8013C19737D1C0028E0A5 /* Build configuration list for PBXNativeTarget "UWaterlooTests" */;
+			buildPhases = (
+				F5B8012319737D1C0028E0A5 /* Sources */,
+				F5B8012419737D1C0028E0A5 /* Frameworks */,
+				F5B8012519737D1C0028E0A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B8012E19737D1C0028E0A5 /* PBXTargetDependency */,
+			);
+			name = UWaterlooTests;
+			productName = UWaterlooTests;
+			productReference = F5B8012719737D1C0028E0A5 /* UWaterlooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B800F619737D1B0028E0A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UWaterloo;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jack Zhang";
+				TargetAttributes = {
+					F5B800FD19737D1C0028E0A5 = {
+						DevelopmentTeam = CYUYD5N9ES;
+					};
+					F5B8012619737D1C0028E0A5 = {
+						TestTargetID = F5B800FD19737D1C0028E0A5;
+					};
+				};
+			};
+			buildConfigurationList = F5B800F919737D1B0028E0A5 /* Build configuration list for PBXProject "UWaterloo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B800F519737D1B0028E0A5;
+			productRefGroup = F5B800FF19737D1C0028E0A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B800FD19737D1C0028E0A5 /* UWaterloo */,
+				F5B8012619737D1C0028E0A5 /* UWaterlooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B800FC19737D1C0028E0A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C28D6E1979A467007BD8E8 /* Wood-Panel-iphone-5-wallpaper-ilikewallpaper_com.jpg in Resources */,
+				F5B8017919737D6A0028E0A5 /* btnCheck@2x.png in Resources */,
+				F5C28D6519799A68007BD8E8 /* ScheduleTableCell.xib in Resources */,
+				F53F2A181975EBF300CE01E7 /* Main.storyboard in Resources */,
+				F5C28D6C19799F1D007BD8E8 /* papercliptradingup.jpg in Resources */,
+				F53F2A211975F53800CE01E7 /* notification_success.png in Resources */,
+				F5C28D741979A97D007BD8E8 /* wood.jpg in Resources */,
+				F5C28D80197AD5EE007BD8E8 /* calendar.png in Resources */,
+				F5C28D6A19799E8A007BD8E8 /* MiLLAooLT.png in Resources */,
+				F53F2A231975F53800CE01E7 /* notification_warring.png in Resources */,
+				F56AFDA4197CB84A00CD8D0E /* paper_clip_note.png in Resources */,
+				F5B8012219737D1C0028E0A5 /* Images.xcassets in Resources */,
+				F53F2A241975F53800CE01E7 /* notification_warring@2x.png in Resources */,
+				F5763F55198206BE0011C5FC /* wood2.jpg in Resources */,
+				F56AFDA7197CC44E00CD8D0E /* edit-notes.png in Resources */,
+				F5763F57198208E60011C5FC /* wood2.png in Resources */,
+				F53F2A221975F53800CE01E7 /* notification_success@2x.png in Resources */,
+				F5B8010E19737D1C0028E0A5 /* InfoPlist.strings in Resources */,
+				F5B8017819737D6A0028E0A5 /* btnCheck.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B8012519737D1C0028E0A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B8013419737D1C0028E0A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B800FA19737D1C0028E0A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53F2A121975D6AE00CE01E7 /* UWaterloo.xcdatamodeld in Sources */,
+				F5B8016D19737D5B0028E0A5 /* JSONHTTPClient.m in Sources */,
+				F5B8017E19737DCF0028E0A5 /* courseModel.m in Sources */,
+				F5C28D771979AFE2007BD8E8 /* finalScheduleModel.m in Sources */,
+				F5B8016C19737D5B0028E0A5 /* JSONAPI.m in Sources */,
+				F5B8016A19737D5B0028E0A5 /* JSONModelError.m in Sources */,
+				F5B80181197380080028E0A5 /* CourseFeed.m in Sources */,
+				F5763F531981DBAE0011C5FC /* addScheduleDetailViewController.m in Sources */,
+				F5B8016619737D5B0028E0A5 /* JSONModel+CoreData.m in Sources */,
+				F53F2A2E19760EEE00CE01E7 /* CourseScheduleModel.m in Sources */,
+				F53F2A371976109D00CE01E7 /* locationModel.m in Sources */,
+				F5B8011019737D1C0028E0A5 /* main.m in Sources */,
+				F5B8012019737D1C0028E0A5 /* UWaterlooDetailViewController.m in Sources */,
+				F5B8017B19737D6A0028E0A5 /* MBProgressHUD.m in Sources */,
+				F5B8016919737D5B0028E0A5 /* JSONModelClassProperty.m in Sources */,
+				F53F2A3A1976159200CE01E7 /* CourseScheduleFetcher.m in Sources */,
+				F5C28D6819799D35007BD8E8 /* ScheduleTableCellTableViewCell.m in Sources */,
+				F5B8016B19737D5B0028E0A5 /* NSArray+JSONModel.m in Sources */,
+				F53F2A151975DA4F00CE01E7 /* CourseListViewController.m in Sources */,
+				F53F2A311976102800CE01E7 /* classesModel.m in Sources */,
+				F5B8016819737D5B0028E0A5 /* JSONModelArray.m in Sources */,
+				F5B8017019737D5B0028E0A5 /* JSONValueTransformer.m in Sources */,
+				F5B8016F19737D5B0028E0A5 /* JSONKeyMapper.m in Sources */,
+				F53F2A201975F53800CE01E7 /* LeafNotification.m in Sources */,
+				F53F2A2719760D5900CE01E7 /* ScheduleTableViewController.m in Sources */,
+				F5B8017A19737D6A0028E0A5 /* HUD.m in Sources */,
+				F53F2A341976108F00CE01E7 /* dateModel.m in Sources */,
+				F5B8011419737D1C0028E0A5 /* UWaterlooAppDelegate.m in Sources */,
+				F5B8016719737D5B0028E0A5 /* JSONModel.m in Sources */,
+				F5B8011D19737D1C0028E0A5 /* UWaterlooMasterViewController.m in Sources */,
+				F5B8016E19737D5B0028E0A5 /* JSONModel+networking.m in Sources */,
+				F53F2A3D19761AA600CE01E7 /* CourseScheduleFeed.m in Sources */,
+				F5C28D7E1979B16C007BD8E8 /* finalScheduleFeed.m in Sources */,
+				F5C28D7B1979B0BE007BD8E8 /* finalScheduleData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B8012319737D1C0028E0A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B8013619737D1C0028E0A5 /* UWaterlooTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B8012E19737D1C0028E0A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B800FD19737D1C0028E0A5 /* UWaterloo */;
+			targetProxy = F5B8012D19737D1C0028E0A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F53F2A161975EBF300CE01E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53F2A171975EBF300CE01E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5B8010C19737D1C0028E0A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B8010D19737D1C0028E0A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5B8013219737D1C0028E0A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B8013319737D1C0028E0A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5B8013719737D1C0028E0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5B8013819737D1C0028E0A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B8013A19737D1C0028E0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UWaterloo/UWaterloo-Prefix.pch";
+				INFOPLIST_FILE = "UWaterloo/UWaterloo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5B8013B19737D1C0028E0A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UWaterloo/UWaterloo-Prefix.pch";
+				INFOPLIST_FILE = "UWaterloo/UWaterloo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F5B8013D19737D1C0028E0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UWaterloo.app/UWaterloo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UWaterloo/UWaterloo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UWaterlooTests/UWaterlooTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F5B8013E19737D1C0028E0A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UWaterloo.app/UWaterloo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UWaterloo/UWaterloo-Prefix.pch";
+				INFOPLIST_FILE = "UWaterlooTests/UWaterlooTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B800F919737D1B0028E0A5 /* Build configuration list for PBXProject "UWaterloo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B8013719737D1C0028E0A5 /* Debug */,
+				F5B8013819737D1C0028E0A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B8013919737D1C0028E0A5 /* Build configuration list for PBXNativeTarget "UWaterloo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B8013A19737D1C0028E0A5 /* Debug */,
+				F5B8013B19737D1C0028E0A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B8013C19737D1C0028E0A5 /* Build configuration list for PBXNativeTarget "UWaterlooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B8013D19737D1C0028E0A5 /* Debug */,
+				F5B8013E19737D1C0028E0A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F53F2A101975D6AE00CE01E7 /* UWaterloo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F53F2A111975D6AE00CE01E7 /* UWaterloo.xcdatamodel */,
+			);
+			currentVersion = F53F2A111975D6AE00CE01E7 /* UWaterloo.xcdatamodel */;
+			path = UWaterloo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5B800F619737D1B0028E0A5 /* Project object */;
+}
